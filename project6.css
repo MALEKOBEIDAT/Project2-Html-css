@@ -1,0 +1,51 @@
+
+body{
+
+    background-color: rgb(111, 225, 111);
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    color: darkgreen;
+    background-color: black;
+
+}
+
+.navbar ul{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 10px white;
+
+}
+
+.profile{
+    color: rgb(16, 27, 4);
+}
+.myimage{
+    width: 250px;
+    height: 350px;
+    rotate: 25px;
+}
+   
+
+
